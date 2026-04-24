@@ -9,6 +9,8 @@ A Chrome Extension that enhances the Google Cloud Platform (GCP) Billing Console
 - **SPA Compatibility**: Uses `MutationObserver` to ensure the menu item remains visible even during dynamic page updates.
 - **Smart Logic**: Handles Shadow DOM traversal to reliably find the navigation menu.
 
+![Support Case Menu](./images/support-cases.png)
+
 ## Project Structure
 
 - `manifest.json`: Extension configuration (Manifest V3).

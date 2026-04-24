@@ -1,0 +1,31 @@
+/* 
+ * GCP Billing Support Navigator - styles.css
+ * Simplified styles to avoid overriding the cloned layout's natural alignment.
+ */
+
+#gcp-billing-support-case-nav-item {
+    /* Only apply minimal overrides to avoid breaking the cloned layout */
+    cursor: pointer !important;
+    text-decoration: none !important;
+    transition: background-color 0.2s ease !important;
+}
+
+#gcp-billing-support-case-nav-item:hover {
+    background-color: rgba(60, 64, 67, 0.04) !important;
+}
+
+/* Ensure the icon size and spacing match */
+#gcp-billing-support-case-nav-item svg,
+#gcp-billing-support-case-nav-item mat-icon,
+#gcp-billing-support-case-nav-item .material-icons {
+    fill: currentColor !important;
+    width: 18px !important;
+    height: 18px !important;
+    /* Remove hardcoded margin/padding if it's causing misalignment */
+    flex-shrink: 0 !important;
+}
+
+/* 
+ * If the alignment is still off, it's likely because the cloned item 
+ * inherits padding that our previous CSS was doubling. 
+ */

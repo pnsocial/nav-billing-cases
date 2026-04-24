@@ -1,0 +1,6 @@
+.DS_Store
+*.zip
+.git/
+.gemini/
+scripts/
+tests/
